@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: express-test-svc
+  namespace: express-nodejs
 spec:
   selector:
     app: express-test
